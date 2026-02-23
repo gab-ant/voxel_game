@@ -1,0 +1,3 @@
+/home/gabant/work/programming/c++/voxel_game/build/CMakeFiles/voxel_game.dir
+/home/gabant/work/programming/c++/voxel_game/build/CMakeFiles/edit_cache.dir
+/home/gabant/work/programming/c++/voxel_game/build/CMakeFiles/rebuild_cache.dir
