@@ -19,3 +19,5 @@ target_link_libraries(voxel_game
     glfw
     OpenGL::GL
 )
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
