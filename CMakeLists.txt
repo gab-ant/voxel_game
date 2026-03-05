@@ -8,6 +8,7 @@ find_package(glfw3 3.3 REQUIRED)
 
 add_executable(voxel_game
     src/main.cpp
+    src/render.cpp
     external/glad/glad.c
 )
 

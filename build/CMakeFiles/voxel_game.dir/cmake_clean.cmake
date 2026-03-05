@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/voxel_game.dir/external/glad/glad.c.o.d"
   "CMakeFiles/voxel_game.dir/src/main.cpp.o"
   "CMakeFiles/voxel_game.dir/src/main.cpp.o.d"
+  "CMakeFiles/voxel_game.dir/src/render.cpp.o"
+  "CMakeFiles/voxel_game.dir/src/render.cpp.o.d"
   "voxel_game"
   "voxel_game.pdb"
 )

@@ -73,6 +73,7 @@ CMakeFiles/voxel_game.dir/external/glad/glad.c.o: /home/gabant/work/programming/
 CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxel_game/src/main.cpp \
   /home/gabant/work/programming/c++/voxel_game/external/glad/include/KHR/khrplatform.h \
   /home/gabant/work/programming/c++/voxel_game/external/glad/include/glad/glad.h \
+  /home/gabant/work/programming/c++/voxel_game/src/render.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -264,6 +265,36 @@ CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxe
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
+CMakeFiles/voxel_game.dir/src/render.cpp.o: /home/gabant/work/programming/c++/voxel_game/src/render.cpp \
+  /home/gabant/work/programming/c++/voxel_game/external/glad/include/KHR/khrplatform.h \
+  /home/gabant/work/programming/c++/voxel_game/external/glad/include/glad/glad.h \
+  /home/gabant/work/programming/c++/voxel_game/src/render.h \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
@@ -274,8 +305,6 @@ CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxe
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -549,6 +578,12 @@ CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxe
 
 /home/gabant/work/programming/c++/voxel_game/src/main.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/home/gabant/work/programming/c++/voxel_game/src/render.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
@@ -562,6 +597,8 @@ CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxe
 /usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/c++/13/bits/allocator.h:
+
+/home/gabant/work/programming/c++/voxel_game/src/render.cpp:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -658,5 +695,3 @@ CMakeFiles/voxel_game.dir/src/main.cpp.o: /home/gabant/work/programming/c++/voxe
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:

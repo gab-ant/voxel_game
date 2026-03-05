@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gabant/work/programming/c++/voxel_game/external/glad/glad.c" "CMakeFiles/voxel_game.dir/external/glad/glad.c.o" "gcc" "CMakeFiles/voxel_game.dir/external/glad/glad.c.o.d"
   "/home/gabant/work/programming/c++/voxel_game/src/main.cpp" "CMakeFiles/voxel_game.dir/src/main.cpp.o" "gcc" "CMakeFiles/voxel_game.dir/src/main.cpp.o.d"
+  "/home/gabant/work/programming/c++/voxel_game/src/render.cpp" "CMakeFiles/voxel_game.dir/src/render.cpp.o" "gcc" "CMakeFiles/voxel_game.dir/src/render.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
