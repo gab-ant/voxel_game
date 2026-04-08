@@ -2,7 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-#include "render.h"
+#include "renderer.h"
+#include "image_loader.h"
 
 const unsigned int WIDTH = 800;
 const unsigned int HEIGHT = 600;
@@ -52,13 +53,13 @@ int main()
     glViewport(0, 0, 800, 600);
 
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-    Render render;
+    Renderer renderer;
 
     while(!glfwWindowShouldClose(window)) 
     {
 	processInput(window);
 	
-	render.draw();
+	renderer.draw();
 
 	glfwSwapBuffers(window);
 	glfwPollEvents();
@@ -67,8 +68,3 @@ int main()
     glfwTerminate();
     return 0;
 }
-
-// Check glCompileShader for errors
-// int success
-// char infoLog[512]
-// glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success)

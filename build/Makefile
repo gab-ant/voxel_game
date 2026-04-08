@@ -153,6 +153,54 @@ external/glad/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/external/glad/glad.c.s
 .PHONY : external/glad/glad.c.s
 
+src/image.o: src/image.cpp.o
+.PHONY : src/image.o
+
+# target to build an object file
+src/image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image.cpp.o
+.PHONY : src/image.cpp.o
+
+src/image.i: src/image.cpp.i
+.PHONY : src/image.i
+
+# target to preprocess a source file
+src/image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image.cpp.i
+.PHONY : src/image.cpp.i
+
+src/image.s: src/image.cpp.s
+.PHONY : src/image.s
+
+# target to generate assembly for a file
+src/image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image.cpp.s
+.PHONY : src/image.cpp.s
+
+src/image_loader.o: src/image_loader.cpp.o
+.PHONY : src/image_loader.o
+
+# target to build an object file
+src/image_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image_loader.cpp.o
+.PHONY : src/image_loader.cpp.o
+
+src/image_loader.i: src/image_loader.cpp.i
+.PHONY : src/image_loader.i
+
+# target to preprocess a source file
+src/image_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image_loader.cpp.i
+.PHONY : src/image_loader.cpp.i
+
+src/image_loader.s: src/image_loader.cpp.s
+.PHONY : src/image_loader.s
+
+# target to generate assembly for a file
+src/image_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/image_loader.cpp.s
+.PHONY : src/image_loader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,29 +225,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/render.o: src/render.cpp.o
-.PHONY : src/render.o
+src/renderer.o: src/renderer.cpp.o
+.PHONY : src/renderer.o
 
 # target to build an object file
-src/render.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/render.cpp.o
-.PHONY : src/render.cpp.o
+src/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/renderer.cpp.o
+.PHONY : src/renderer.cpp.o
 
-src/render.i: src/render.cpp.i
-.PHONY : src/render.i
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
 
 # target to preprocess a source file
-src/render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/render.cpp.i
-.PHONY : src/render.cpp.i
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
 
-src/render.s: src/render.cpp.s
-.PHONY : src/render.s
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
 
 # target to generate assembly for a file
-src/render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/render.cpp.s
-.PHONY : src/render.cpp.s
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_game.dir/build.make CMakeFiles/voxel_game.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
 
 # Help Target
 help:
@@ -213,12 +261,18 @@ help:
 	@echo "... external/glad/glad.o"
 	@echo "... external/glad/glad.i"
 	@echo "... external/glad/glad.s"
+	@echo "... src/image.o"
+	@echo "... src/image.i"
+	@echo "... src/image.s"
+	@echo "... src/image_loader.o"
+	@echo "... src/image_loader.i"
+	@echo "... src/image_loader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/render.o"
-	@echo "... src/render.i"
-	@echo "... src/render.s"
+	@echo "... src/renderer.o"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
 .PHONY : help
 
 

@@ -7,9 +7,21 @@
 },
 {
   "directory": "/home/gabant/work/programming/c++/voxel_game/build",
-  "command": "/usr/bin/c++  -I/home/gabant/work/programming/c++/voxel_game/external/glad/include -std=gnu++17 -o CMakeFiles/voxel_game.dir/src/render.cpp.o -c /home/gabant/work/programming/c++/voxel_game/src/render.cpp",
-  "file": "/home/gabant/work/programming/c++/voxel_game/src/render.cpp",
-  "output": "CMakeFiles/voxel_game.dir/src/render.cpp.o"
+  "command": "/usr/bin/c++  -I/home/gabant/work/programming/c++/voxel_game/external/glad/include -std=gnu++17 -o CMakeFiles/voxel_game.dir/src/renderer.cpp.o -c /home/gabant/work/programming/c++/voxel_game/src/renderer.cpp",
+  "file": "/home/gabant/work/programming/c++/voxel_game/src/renderer.cpp",
+  "output": "CMakeFiles/voxel_game.dir/src/renderer.cpp.o"
+},
+{
+  "directory": "/home/gabant/work/programming/c++/voxel_game/build",
+  "command": "/usr/bin/c++  -I/home/gabant/work/programming/c++/voxel_game/external/glad/include -std=gnu++17 -o CMakeFiles/voxel_game.dir/src/image.cpp.o -c /home/gabant/work/programming/c++/voxel_game/src/image.cpp",
+  "file": "/home/gabant/work/programming/c++/voxel_game/src/image.cpp",
+  "output": "CMakeFiles/voxel_game.dir/src/image.cpp.o"
+},
+{
+  "directory": "/home/gabant/work/programming/c++/voxel_game/build",
+  "command": "/usr/bin/c++  -I/home/gabant/work/programming/c++/voxel_game/external/glad/include -std=gnu++17 -o CMakeFiles/voxel_game.dir/src/image_loader.cpp.o -c /home/gabant/work/programming/c++/voxel_game/src/image_loader.cpp",
+  "file": "/home/gabant/work/programming/c++/voxel_game/src/image_loader.cpp",
+  "output": "CMakeFiles/voxel_game.dir/src/image_loader.cpp.o"
 },
 {
   "directory": "/home/gabant/work/programming/c++/voxel_game/build",
