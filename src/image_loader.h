@@ -1,17 +1,9 @@
 #pragma once
-#include <string>
 
+#include <string>
 #include "image.h"
 
-using std::string;
-
-class ImageLoader
+namespace imageLoader 
 {
-    public:
-	ImageLoader();
-
-	// I/O?
-	Image loadImage(string path);
-
-    private:
-};
+    Image loadImage(std::string path);
+}

@@ -22,7 +22,8 @@ void processInput(GLFWwindow *window)
 }
 
 int main() 
-{
+{   
+    // GLFW init
     if (!glfwInit()) 
     {
 	std::cerr << "Failed to initialize GLFW\n";
@@ -33,7 +34,11 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Test", NULL, NULL);
+    // Shader loading
+    imageLoader::loadImage("textures/wall.bmp");
+
+    // Window creation
+    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "MY_GAME", NULL, NULL);
 
     if (!window) 
     {
@@ -54,7 +59,8 @@ int main()
 
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     Renderer renderer;
-
+    
+    // Game-loop
     while(!glfwWindowShouldClose(window)) 
     {
 	processInput(window);

@@ -163,7 +163,6 @@ string Renderer::loadShaderFile(string path)
 	}
 	file.close();
     }
-
     else std::cout << "Could not open file" << '\n';
 
     return result;
